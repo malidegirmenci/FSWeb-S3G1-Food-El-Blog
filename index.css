@@ -1,11 +1,14 @@
 /*======= Font rengini #3C373B yapan bir yeni bir universal selector yaratın*/
-
+*{
+  color: #3C373B;
+}
 
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
   /*=======  Font size'ı 60px yapın ve text'i ortalayın(center) */
-  font-size: 10px;
+  font-size: 60px;
+  text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
@@ -13,7 +16,7 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Font size'ı 30px yapın*/
-  font-size: 10px;
+  font-size: 30px;
 }
 
 /*======= Sayfadaki TÜM p tag'leri için aşağıdaki özellikleri içeren bir selector yaratın:
@@ -37,12 +40,14 @@ line-height: 1.4;
 }
 
 .content-row div {
-  /*======= margin propery yaratın.  Değerini 20px olarak atayın*/
+  /*======= margin property yaratın.  Değerini 20px olarak atayın*/
+ 
 }
 
 .container {
-  /*======= width property yaratın. Değerini 750px olarak atayın */
   margin: 0 auto;
+  /*======= width property yaratın. Değerini 750px olarak atayın */
+  width: 750px;
 }
 
 .container header nav a {
@@ -54,12 +59,15 @@ line-height: 1.4;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
-   /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
+  /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
+  background: #E79947;
   
 }
 
 .container header nav a:hover {
 /*======= background property yaratın ve değeri white olsun.  Sonra, color property yaratın ve değerini #E79947 yapın. */
+  background-color: white;
+  color:#E79947 ;
 }
 
 /*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
