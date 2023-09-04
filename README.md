@@ -44,7 +44,7 @@ Görevinizi bitirdikten sonra sayfa tasarımının son halinin ekran görüntüs
 
 [tasarım dosyası](https://www.figma.com/file/KXpJEFkg0KNORUw6rdwrbz/FSWeb-S3G1-UI-interface?node-id=1%3A4).
 
-* [ ] HTML yapıyı tagler kullanarak yapın.
-* [ ] CSS dosyasındaki boşlukları doldurun. (tasarımdaki dizaynı elde etmek için bazıları ile oynamak zorunda kalabilirsiniz.)
-* [ ] Son halinin ekran görüntüsünü alın ve odev_teslim klasörüne resim olarak ekleyin.
-* [ ] Bu şekilde github'a pushlayın.
+* [X] HTML yapıyı tagler kullanarak yapın.
+* [X] CSS dosyasındaki boşlukları doldurun. (tasarımdaki dizaynı elde etmek için bazıları ile oynamak zorunda kalabilirsiniz.)
+* [X] Son halinin ekran görüntüsünü alın ve odev_teslim klasörüne resim olarak ekleyin.
+* [X] Bu şekilde github'a pushlayın.

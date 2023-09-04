@@ -14,9 +14,11 @@ h1 {
 h2, h3, h4, h5, h6 {
   font-family: 'Gaegu', cursive;
   margin-bottom: 0;
+  margin-top: 0;
   padding: 0 10px;
   /*=======  Font size'ı 30px yapın*/
   font-size: 30px;
+  font-weight: 100;
 }
 
 /*======= Sayfadaki TÜM p tag'leri için aşağıdaki özellikleri içeren bir selector yaratın:
@@ -29,9 +31,9 @@ line-height: 1.4;
 */
 p {
   font-size: 16px;
-  font-family: roboto;
-  padding: 10px;
-  line-height: 1.4px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 20px;
+  margin: 10px;
 }
 
 /*======= Sayfadaki TÜM imajlar için aşağıdaki özellikleri içeren bir selector yaratın:
@@ -39,8 +41,10 @@ p {
   border-radius: 10px;
 
 */
+
 img {
   border-radius: 10px;
+  height: 300px;
 }
 
 .content-row {
@@ -49,13 +53,26 @@ img {
 
 .content-row div {
   /*======= margin property yaratın.  Değerini 20px olarak atayın*/
+  
+  vertical-align: top;
   margin: 20px;
- 
+  margin-top: 0;
+  
 }
 
 .container {
   margin: 0 auto;
   /*======= width property yaratın. Değerini 750px olarak atayın */
+  width: 750px;
+}
+
+ .banner-area{
+  background-color: rgb(238, 236, 236);
+  text-align: center;
+  margin: 20px;
+}
+.banner-area .banner{
+  height: 175px;
   width: 750px;
 }
 
@@ -82,13 +99,9 @@ img {
 /*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
   margin-top: 20px;
 */
-.aboutUs p{
-  margin-top: 20px;
-  color:red;
-}
+
 
 .contact-section {
-  border-top: 1px dashed black;
   padding: 20px 0;
 }
 
@@ -102,6 +115,9 @@ img {
 */
 .contact-section address {
   line-height: 2;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 footer {
   width: 100%;
@@ -119,6 +135,7 @@ footer .footer-content {
 footer .footer-content h3 {
   padding: 0;
   margin: 20px 0;
+  text-align: left;
 }
 
 footer nav {
@@ -152,10 +169,7 @@ footer  .footer-content nav a:hover{
 }
 
 footer .footer-content, .copyright {
-  padding: 10px;
+  padding: 20px;
    /*======= metni ortalayacak kodu yazın */
    text-align: center;
-}
-footer .footer-content h2{
-  text-align: left;
 }
